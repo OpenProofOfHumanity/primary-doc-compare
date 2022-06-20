@@ -63,21 +63,21 @@ algorithms from being able to detect identical faces.
 - A set of words describing the submitter (For example: “Cypherpunk”, “Painting
 Enthusiast”, “Solidity Developer”, etc…)
 - This field may be left empty.
-4. Video of the submitter displaying a sign with his Ethereum address - Required
+4. Video of the submitter - Required
 - The user can choose to display his Ethereum address using a physical sign. The
-sign should display in a readable manner the full Ethereum address of the
+sign has to display in a readable manner the full Ethereum address of the
 submitter (No ENS; no ellipsis). The sign can be a screen. The submitter must
 show the sign in the right orientation to be read on the video.
 - A single one of the following errors occurring once will be tolerated in the
 displayed address:
-• omitted character: a character is omitted from the address (e.g. “abcd”,
+- omitted character: a character is omitted from the address (e.g. “abcd”→
 “abd”).
-• mistaken character: a different character has been written in place of the
+- mistaken character: a different character has been written in place of the
 one expected in that position (e.g. “abcd” → “ab9d”).
-• swapped adjacent characters: two characters adjacent to each other
-have been swapped (e.g. “abcd” → “acbd”, but not “adcb”).
-• additional character: an additional character has been inserted
-anywhere in the address (e.g. “abcd” → “abc0d”).
+- swapped adjacent characters: two characters adjacent to each other have
+been swapped (e.g. “abcd” → “acbd”, but not “adcb”).
+- additional character: an additional character has been inserted anywhere
+in the address (e.g. “abcd” → “abc0d”).
 - The user can choose to use verbal confirmation. The user has to say the 8 words
 that are shown on the screen when recording their video. These words are the
 result of turning the submitter's Ethereum address into base 2048 and then
@@ -88,23 +88,23 @@ verbal confirmation must be said in the same language as the rest of the phrase.
 - The submitter must say « I certify that I am a real human and that I am not
 already registered in this registry ». Submitters should speak in their normal voice
 and should not attempt mimicking someone else’s voice. Speaking before or after
-the required sentence is acceptable. Poor English accents, mispronunciations,and the switch or oversight of words in that sentence are not grounds for
-rejections.
-- Only native spanish speakers should say the phrase: "Certifico que soy una
-persona humana real y que no estoy actualmente en este registro". If other
-words or extra validation phrases are required, they must be said in Spanish as
-well. Casual omission of words of the phrase, or accents are not grounds for
-removals or challenges and rejections. Mispronunciations of the words in that
-phrase are. Submitters should speak in their normal voice and should not attempt
-mimicking someone else’s voice. Speaking before or after the required sentence
-is acceptable.
+the required sentence is acceptable. Poor English accents, mispronunciations,
+and the switch or oversight of words in that sentence are not grounds for
+rejections.- As an alternative, native Spanish speakers may say the phrase: "Certifico que
+soy una persona humana real y que no estoy actualmente en este registro". If
+other words or extra validation phrases are required, they must be said in
+Spanish as well. Casual omission of words of the phrase, or accents are not
+grounds for removals or challenges and rejections. Mispronunciations of the
+words in that phrase are. Submitters should speak in their normal voice and
+should not attempt mimicking someone else’s voice. Speaking before or after the
+required sentence is acceptable.
 - Video submissions must follow all of the following requirements:
-* at most 2 minutes long,
-* in the video/webm, video/MP4, video/avi or video/mov format,
-* vertical (portrait), horizontal (landscape) or square,
+- at most 2 minutes long,
+- in the video/webm, video/MP4, video/avi or video/mov format, vertical
+(portrait), horizontal (landscape) or square,
 and follow these minimum size requirements:
-* Minimum height: equal to or higher than 352 pixels
-* Minimum width: equal to or higher than 352 pixels
+- Minimum height: equal to or higher than 352 pixels
+- Minimum width: equal to or higher than 352 pixels
 - Lighting conditions and recording device quality should be sufficient to discern
 facial features and characters composing the Ethereum address displayed.
 - The quality of the audio should be high enough such that the speaker can be
@@ -118,8 +118,8 @@ Challenge Types
 In order to curate this registry, any user can challenge submissions in “Pending Registration”
 state that they deem non-compliant with the above-cited acceptance criteria. A user challenging
 a pending submission needs to specify a challenge type. A challenge can be rejected if the
-challenge type specified is incorrect.The challenges types are the following:
-● Duplicate: The submitter is already registered in the list.
+challenge type specified is incorrect.
+The challenges types are the following:● Duplicate: The submitter is already registered in the list.
 ○ The challenger has to point to the identity already registered or to a duplicate
 submission. If someone tries to register multiple times simultaneously, all
 submissions are to be rejected.
@@ -142,15 +142,15 @@ The removal requester has to either:
 ● Provide evidence that the above-cited acceptance criteria are not fulfilled by the
 submission.
 ○ Example: Send the following removal request
-Evidence name: This user video is a deep-fake
-Evidence description: You will find in the attached file an analysis report
+■ Evidence name: This user video is a deep-fake
+■ Evidence description: You will find in the attached file an analysis report
 proving that this video is deep-faked.
 ● Or provide evidence that he is the submitter and wants to voluntarily remove his
 submission.
-○ Example 1: Send a removal request from the same address as the submitter.■ Evidence Name: Self-removal of submission
+○ Example 1: Send a removal request from the same address as the submitter.
+■ Evidence Name: Self-removal of submission
 ■ Evidence Description: I am the submitter as proven by my address and I
-want to remove this submission.
-○ Example 2: Send a removal request from a different address than the submitter.
+want to remove this submission.○ Example 2: Send a removal request from a different address than the submitter.
 ■ Evidence Name: Self-removal of submission
 ■ Evidence Description: I am the submitter and I want to remove this
 submission. The video attached is a recording of myself saying the
